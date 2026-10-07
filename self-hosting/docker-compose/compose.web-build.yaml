@@ -1,0 +1,14 @@
+# Build the web service from the local sources instead of the prebuilt
+# ghcr.io/omnivore-app/sh-web image, so web changes are actually served.
+# Usage (from this folder):
+#   docker compose -f docker-compose.yml -f compose.web-build.yaml up -d --build web
+services:
+  web:
+    build:
+      context: ../../
+      dockerfile: ./packages/web/Dockerfile-self
+      args:
+        - APP_ENV=prod
+        - BASE_URL=http://localhost:3000
+        - SERVER_BASE_URL=http://localhost:4000
+        - HIGHLIGHTS_BASE_URL=http://localhost:3000
