@@ -1,0 +1,3 @@
+# Generated/local-only compose artifacts
+merged.local.yml
+*.bak-*
