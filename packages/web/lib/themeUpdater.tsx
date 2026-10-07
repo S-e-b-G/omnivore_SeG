@@ -143,11 +143,11 @@ export function isDarkTheme(): boolean {
 }
 
 export const highlightColors = [
-  'yellow',
-  'red',
-  'green',
-  'blue',
   'orange',
+  'green',
+  'red',
+  'yellow',
+  'blue',
   'pink',
 ]
 
