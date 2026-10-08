@@ -154,19 +154,19 @@ export const highlightColors = [
 export const highlightColor = (name: string | undefined) => {
   switch (name) {
     case 'green':
-      return '#30F230'
+      return '#3CF23C'
     case 'blue':
-      return '#B7D0E5'
+      return '#C0CED8'
     case 'yellow':
-      return '#FFFF26'
+      return '#E5E500'
     case 'orange':
-      return '#FFAD5B'
+      return '#F2973C'
     case 'red':
-      return '#FC3636'
+      return '#FF5E5E'
     case 'pink':
-      return '#F9C7F9'
+      return '#E2C0E2'
   }
-  return '#FFFF26'
+  return '#E5E500'
 }
 
 export const highlightColorVar = (name: string | undefined) => {

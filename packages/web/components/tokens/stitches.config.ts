@@ -134,7 +134,7 @@ export const { styled, css, theme, getCssText, globalCss, keyframes, config } =
         ctaBlue: '#007AFF',
         modalBackground: '#FFFFFF',
 
-        highlightBackground: '255, 210, 52',
+        highlightBackground: '253, 248, 215',
         recommendedHighlightBackground: '#E5FFE5',
         highlight: '#FFD234',
         highlightText: '#3D3D3D',
@@ -246,14 +246,14 @@ export const { styled, css, theme, getCssText, globalCss, keyframes, config } =
         thFallbackImageForeground: '#2A2A2A',
         thFallbackImageBackground: '#EDEDED',
 
-        highlight_background_green: '48, 242, 48',
-        highlight_background_blue: '183, 208, 229',
-        highlight_background_orange: '255, 173, 91',
-        highlight_background_yellow: '255, 255, 38',
-        highlight_background_red: '252, 54, 54',
-        highlight_background_pink: '249, 199, 249',
+        highlight_background_green: '60, 242, 60',
+        highlight_background_blue: '201, 215, 226',
+        highlight_background_orange: '242, 151, 60',
+        highlight_background_yellow: '245, 245, 5',
+        highlight_background_red: '255, 94, 94',
+        highlight_background_pink: '244, 210, 244',
 
-        highlight_background_alpha: '0.2',
+        highlight_background_alpha: '0.35',
         highlight_underline_alpha: '1.0',
       },
     },
@@ -299,7 +299,7 @@ const darkThemeSpec = {
     // Semantic Colors
     highlightBackground: '134, 109, 21',
     recommendedHighlightBackground: '#1F4315',
-    highlight: '#FFD234',
+    highlight: '#FFE526',
     highlightText: 'white',
     error: '#FA5E4A',
 
@@ -403,8 +403,8 @@ const darkThemeSpec = {
     thFallbackImageForeground: '#FEFFFF',
     thFallbackImageBackground: '#3C3C3C',
 
-    highlight_underline_alpha: '0.5',
-    highlight_background_alpha: '0.35',
+    highlight_underline_alpha: '0.7',
+    highlight_background_alpha: '0.5',
   },
 }
 
